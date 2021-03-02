@@ -2,7 +2,8 @@
 
 int main(void){
 
-    printf("Hola, mundo!");
+    printf("Un mensaje.\n");
+    printf("\tOtro mensaje.");
 
     return 0;
 }
