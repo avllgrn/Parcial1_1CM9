@@ -1,20 +1,59 @@
 #include <stdio.h>
 
 int main(void){
+    //Codifica un programa que sume dos numeros enteros que tu quieras
+    printf("%d\n\n",163 + 956);
 
-    printf("Bueno dias! Este programa...\n\n");
+    //Codifica un programa que sume dos numeros enteros que tu quieras
+    printf("%d\n\n",-163 + 956);
 
-    printf("%d + ",2);
-    printf("%d = ",3);
-    printf("%d\n\n",2+3);
+    //Codifica un programa que sume dos numeros decimales que tu quieras
+    printf("%f\n\n",12.35 + 95.54);
 
-    printf("%f + ",4.5);
-    printf("%f = ",6.7);
-    printf("%f\n\n",4.5+6.7);
+    //Codifica un programa que sume dos numeros decimales que tu quieras
+    printf("%f\n\n",-12.35 + 95.54);
 
-    printf("%c ",'#');
-    printf("%c ",'{');
-    printf("%c\n\n",'@');
+    //Codifica un programa que reste dos numeros enteros que tu quieras
+    printf("%d\n\n",163 - 956);
+
+    //Codifica un programa que reste dos numeros enteros que tu quieras
+    printf("%d\n\n",-163 - 956);
+
+    //Codifica un programa que reste dos numeros decimales que tu quieras
+    printf("%f\n\n",12.35 - 95.54);
+
+    //Codifica un programa que reste dos numeros decimales que tu quieras
+    printf("%f\n\n",-12.35 - 95.54);
+
+    //Codifica un programa que multiplique dos numeros enteros que tu quieras
+    printf("%d\n\n",163 * 956);
+
+    //Codifica un programa que multiplique dos numeros enteros que tu quieras
+    printf("%d\n\n",-163 * 956);
+
+    //Codifica un programa que multiplique dos numeros decimales que tu quieras
+    printf("%f\n\n",12.35 * 95.54);
+
+    //Codifica un programa que multiplique dos numeros decimales que tu quieras
+    printf("%f\n\n",-12.35 * 95.54);
+
+    //Codifica un programa que divida dos numeros enteros que tu quieras
+    printf("%d\n\n",163 / 956);
+
+    //Codifica un programa que divida dos numeros enteros que tu quieras
+    printf("%d\n\n",-163 / 956);
+
+    //Codifica un programa que divida dos numeros enteros que tu quieras
+    printf("%f\n\n",163.0 / 956.0);
+
+    //Codifica un programa que divida dos numeros enteros que tu quieras
+    printf("%f\n\n",-163.0 / 956.0);
+
+    //Codifica un programa que divida dos numeros decimales que tu quieras
+    printf("%f\n\n",12.35 / 95.54);
+
+    //Codifica un programa que divida dos numeros decimales que tu quieras
+    printf("%f\n\n",-12.35 / 95.54);
 
     return 0;
 }
