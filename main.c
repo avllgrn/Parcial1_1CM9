@@ -1,21 +1,26 @@
 #include <stdio.h>
 
 int main(void){
-    //Codifica un programa que divida dos numeros enteros que tu quieras
-    //y muestre el cociente
-    printf("%d\n\n",6 / 3);
+    //Codifica un programa que calcule el area y el perimetro de un
+    //rectangulo
 
-    //Codifica un programa que divida dos numeros enteros que tu quieras
-    //y muestre el cociente
-    printf("%d\n\n",7 / 4);
+    float base;
+    float altura;
+    float area;
+    float perimetro;
 
-    //Codifica un programa que divida dos numeros enteros que tu quieras
-    //y muestre el residuo
-    printf("%d\n\n",6 % 3);
+    printf("Este programa calcula el area y el perimetro de un rectangulo\n\n");
 
-    //Codifica un programa que divida dos numeros enteros que tu quieras
-    //y muestre el residuo
-    printf("%d\n\n",7 % 4);
+    base = 2;
+    altura = 4;
+
+    area = base * altura;
+    perimetro = 2*base + 2*altura;
+
+    printf("Base = %f\n",base);
+    printf("Altura = %f\n",altura);
+    printf("Area = %f\n",area);
+    printf("Perimetro = %f\n",perimetro);
 
     return 0;
 }
