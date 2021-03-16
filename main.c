@@ -2,7 +2,16 @@
 #include <math.h>
 int main(void){
 
-    printf("En C, pi = %f", M_PI);
+    float alpha;
+    float alphaRad;
+
+    printf("Ingresa tu angulo ");
+    scanf("%f",&alpha);
+
+    alphaRad = alpha * M_PI / 180.0;
+
+    printf("%f Grad = ",alpha);
+    printf("%f Rad\n",alphaRad);
 
     return 0;
 }
