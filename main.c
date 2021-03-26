@@ -10,26 +10,25 @@ float calculaAreaRectangulo(float b, float a);
 float calculaPerimetroRectangulo(float b, float a);
 float calculaX1(float a, float b, float c);
 float calculaX2(float a, float b, float c);
+float convierteCelsiusAFahrenheit(float celsius);
 int main(void){
 
-    float a, b, c, x1, x2;
+    float c, f;
 
     //1.Pide datos
-    printf("Ingresa a ");
-    scanf("%f",&a);
-    printf("Ingresa b ");
-    scanf("%f",&b);
-    printf("Ingresa c ");
+    printf("Ingresa celsius ");
     scanf("%f",&c);
 
-    x1 = calculaX1(a,b,c);
-    x2 = calculaX2(a,b,c);
+    f = convierteCelsiusAFahrenheit(c);
 
     //3.Muestra resultados
-    printf("x1: %f\n",x1);
-    printf("x2: %f\n",x2);
+    printf("%f Celius = ",c);
+    printf("%f Fahrenheit\n",f);
 
     return 0;
+}
+float convierteCelsiusAFahrenheit(float celsius){
+    return 9.0/5.0*celsius + 32;
 }
 float calculaX1(float a, float b, float c){
     return (-b+sqrt(pow(b,2)-4*a*c))/(2*a);//2.Calcula formulas
