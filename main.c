@@ -8,26 +8,34 @@ void muestraMasDatos(void);
 
 float calculaAreaRectangulo(float b, float a);
 float calculaPerimetroRectangulo(float b, float a);
-
+float calculaX1(float a, float b, float c);
+float calculaX2(float a, float b, float c);
 int main(void){
 
-    float area, perimetro, base, altura;
+    float a, b, c, x1, x2;
 
     //1.Pide datos
-    printf("Ingresa base ");
-    scanf("%f",&base);
-    printf("Ingresa altura ");
-    scanf("%f",&altura);
+    printf("Ingresa a ");
+    scanf("%f",&a);
+    printf("Ingresa b ");
+    scanf("%f",&b);
+    printf("Ingresa c ");
+    scanf("%f",&c);
 
-
-    area = calculaAreaRectangulo(base, altura);
-    perimetro = calculaPerimetroRectangulo(base, altura);
+    x1 = calculaX1(a,b,c);
+    x2 = calculaX2(a,b,c);
 
     //3.Muestra resultados
-    printf("Area: %f\n",area);
-    printf("Perimetro: %f\n",perimetro);
+    printf("x1: %f\n",x1);
+    printf("x2: %f\n",x2);
 
     return 0;
+}
+float calculaX1(float a, float b, float c){
+    return (-b+sqrt(pow(b,2)-4*a*c))/(2*a);//2.Calcula formulas
+}
+float calculaX2(float a, float b, float c){
+    return (-b-sqrt(pow(b,2)-4*a*c))/(2*a);//2.Calcula formulas
 }
 float calculaAreaRectangulo(float b, float a){
     return b*a;//2.Calcula formulas
